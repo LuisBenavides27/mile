@@ -36,7 +36,7 @@
                                 escritor de la película
                                 "Los increíbles" más el año de nacimiento del creador de la serie "Los Simpson"?</h1>
                         
-                            <form action="{{ route('niveluno') }}" class="mt-4" method="POST">
+                            <form action="{{ url('niveluno') }}" class="mt-4" method="POST">
                                 @csrf
                         
                                 <input type="hidden" name="nivel" value="1">
