@@ -27,7 +27,7 @@
         @auth
         <a href="{{ route('/') }}" class="bg-red-800 text-white uppercase py-2 px-4 md:py-4 md:px-6 rounded-xl hover:bg-blue-900 absolute bottom-8 right-8 md:bottom-16 md:right-16">DASHBOARD</a>
         @else
-        <a href="{{ route('login') }}" class="bg-red-800 text-white uppercase py-2 px-4 md:py-4 md:px-6 rounded-xl hover:bg-blue-900 absolute bottom-8 right-8 md:bottom-16 md:right-16">INGRESAR</a>
+        <a href="{{ route('login') }}" class="bg-red-800 text-white uppercase py-4 px-6 md:py-6 md:px-8 rounded-xl hover:bg-blue-900 absolute bottom-8 right-8 md:bottom-16 md:right-16 md:w-72 flex justify-center items-center text-lg font-bold">INGRESAR</a>
         @endauth
     </div>
 
