@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Error 404 - Página no encontrada</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <style>
-        /* Agrega estilos personalizados aquí */
-    </style>
+   
 </head>
 <body class="bg-gray-200 flex items-center justify-center h-screen">
     <div class="text-center">
