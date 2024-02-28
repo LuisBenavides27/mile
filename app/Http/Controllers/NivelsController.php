@@ -21,7 +21,7 @@ class NivelsController extends Controller
             }
         }
 
-        return redirect()->route('dashboard')->with('info', 'FELICITACIONES TERMINASTE');
+        return redirect()->route('dashboard')->with('info', 'FELICITACIONES MI AMOR TERMINASTE TODO EL JUEGO, TE AMO MUCHO');
     }
 
 
