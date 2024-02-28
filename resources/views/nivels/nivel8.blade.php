@@ -32,7 +32,7 @@
 
                         <!-- Column -->
                         <div class="py-9 px-1 col-span-12 md:col-span-4 text-center relative">
-                                <h1 class="text-xl mb-4">¿ Cual es el nombre del hotel donde nos dimos nuestro el primer beso ?. Escribe en minusculas, solo el nombre sin incluir la palabra Hotel
+                                <h1 class="text-xl mb-4">¿ Cual es el nombre del hotel de frente donde nos dimos nuestro el primer beso ?. Escribe en minusculas, solo el nombre sin incluir la palabra Hotel
                                 </h1>
 
                                 <form action="{{ route('niveluno') }}" class="mt-4" method="POST">
