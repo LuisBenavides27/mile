@@ -5,7 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>MIle</title>
+    <meta property="og:image" content="{{ asset('img/corazon.png') }}" />
+    <meta property="og:title" content="RABITO DE PUERCO" />
+    <meta property="og:description" content="Este es un juego hecho con mucho amor" />
+
+    <title>{{ config('app.name', 'Laravel') }}</title>
+    <!-- Agrega la siguiente línea para establecer el ícono de la pestaña -->
+    <link rel="icon" type="image/png" href="{{ asset('img/corazon.png') }}">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
