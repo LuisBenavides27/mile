@@ -39,6 +39,6 @@ class RouteServiceProvider extends ServiceProvider
 
         resolve(\Illuminate\Routing\UrlGenerator::class)->forceScheme('https');
 
-        parent::boot();
+        parent::boot(); 
     }
 }

@@ -10,7 +10,7 @@
                         <img id="firstImage" class="h-auto max-w-full transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" src="{{ asset('img/cat2.gif') }}" alt="image description">
                     </div>
                     <div class="flex justify-center items-center hidden" id="secondImageDiv">
-                        <a href="{{route('test',['id' => 1])}}">
+                        <a href="{{route('test')}}">
                             <img id="secondImage" class="h-auto max-w-full transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" src="{{ asset('img/cat.gif') }}" alt="image description">
                         </a>
                     </div>                    

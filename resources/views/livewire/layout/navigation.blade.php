@@ -46,7 +46,17 @@ new class extends Component {
                     <x-nav-link>
                         PUNTOS : {{ auth()->user()->game->points }}
                     </x-nav-link>
-
+                    @can('panel')
+                        <x-nav-link href="{{route('panel')}}">
+                            Panel de administracion
+                        </x-nav-link>
+                    @endcan
+                    @can('users')
+                        <x-nav-link href="{{route('users')}}">
+                            Panel de usuarios
+                        </x-nav-link>
+                    @endcan
+                    
 
 
                 </div>
@@ -119,7 +129,16 @@ new class extends Component {
             <x-responsive-nav-link>
                 PUNTOS : {{ auth()->user()->game->points }}
             </x-responsive-nav-link>
-
+            @can('panel')
+                <x-responsive-nav-link href="{{route('panel')}}">
+                    PANEL DE ADMINISTRACION
+                </x-responsive-nav-link>
+            @endcan
+            @can('users')
+                <x-responsive-nav-link href="{{route('users')}}">
+                    PANEL DE USUARIOS
+                </x-responsive-nav-link>
+            @endcan
         </div>
 
         <!-- Responsive Settings Options -->
